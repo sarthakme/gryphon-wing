@@ -13,6 +13,8 @@ The server will start on port 3000.
 
 To run tests: npm run test
 
+Submitting ENV=test did not work in my environment, so I added  script to change the environment variable directly in the file before and after running the tests
+
 ## .env variable names -
 
 POSTGRES_HOST: PostgreSQL host address - 127.0.0.1
