@@ -6,7 +6,7 @@ The backend for an e-commerce store. When it recieves requests, it sends out an 
 
 To install dependencies: npm install
 
-To setup the database: npm run setup
+To setup the database: npm run setup, before running this, enter your PostgreSQL username and password in the corresponding fields of the objects stored in the database.json file.
 
 To start the server: npm run start
 The server will start on port 3000.
