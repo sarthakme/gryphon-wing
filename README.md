@@ -2,7 +2,7 @@
 
 The backend for an e-commerce store. When it recieves requests, it sends out an appropriate response in the form of JSON. The user of the website can perform many actions including viewing all objects on sale and adding some of them to their cart. Though, some actions may require the user to sign up or log in. Upon this, they will recieve a JWT. They need to add this JWT to subsequant requests' headers to access the gatekept resources.
 
-### Instructions
+## Instructions
 
 To install dependencies: npm install
 
@@ -13,7 +13,7 @@ The server will start on port 3000.
 
 To run tests: npm run test
 
-### .env variable names -
+## .env variable names -
 
 POSTGRES_HOST: PostgreSQL host address - 127.0.0.1
 
@@ -34,7 +34,7 @@ SALT_ROUNDS: Number of salting rounds for bcrypt - 10
 TOKEN_SECRET: JWT secret - metric
 
 
-### database.json contents -
+## database.json contents -
 
 {
 
