@@ -33,20 +33,36 @@ SALT_ROUNDS: Number of salting rounds for bcrypt - 10
 
 TOKEN_SECRET: JWT secret - metric
 
+
 database.json contents -
+
 {
-  "dev": {
-    "driver": "pg",
-    "host": "127.0.0.1",
-    "database": "orders_dev",
-    "user":,
-    "password":
-  },
-  "test": {
-    "driver": "pg",
-    "host": "127.0.0.1",
-    "database": "orders_test",
-    "user":,
-    "password":
-  }
+
+"dev": {
+
+"driver": "pg",
+
+"host": "127.0.0.1",
+
+"database": "orders_dev",
+
+"user":,
+
+"password":
+
+},
+
+"test": {
+
+"driver": "pg",
+
+"host": "127.0.0.1",
+
+"database": "orders_test",
+
+"user":,
+
+"password":
+
+}
 }
