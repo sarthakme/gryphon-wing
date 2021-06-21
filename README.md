@@ -16,13 +16,21 @@ To run tests: npm run test
 .env variable names -
 
 POSTGRES_HOST: PostgreSQL host address - 127.0.0.1
+
 POSTGRES_DB: PostgreSQL development database name - orders_dev
+
 POSTGRES_TEST_DB: PostgreSQL testing database name - orders_test
+
 POSTGRES_USER: PostgreSQL username
+
 POSTGRES_PASSWORD: PostgreSQL password
+
 ENV: Environment - dev for development | test for testing
+
 BCRYPT_PASSWORD: Pepper value for bcrypt - pepper
+
 SALT_ROUNDS: Number of salting rounds for bcrypt - 10
+
 TOKEN_SECRET: JWT secret - metric
 
 database.json contents -
